@@ -3,7 +3,7 @@
  * Collecte les événements d'utilisation de l'application
  */
 
-const API_URL = process.env.REACT_APP_API_URL || 'http://localhost:3001';
+import { API_URL } from '../config';
 
 class AnalyticsService {
   constructor() {
